@@ -1,8 +1,8 @@
 class main {
 	public static void main(String[] args) {
-		MallardDuck mDuck = new MallardDuck();
-		RubberDuck rDuck = new RubberDuck();
-		DecoyDuck dDuck = new DecoyDuck();
+		Duck mDuck = new MallardDuck();
+		Duck rDuck = new RubberDuck();
+		Duck dDuck = new DecoyDuck();
 
 		mDuck.display();
 		mDuck.swim();
